@@ -1,11 +1,16 @@
 package com.sherolero.tales.reploks;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -139,7 +144,38 @@ public class QuizActivity extends Activity {
         }
 
         private void displayQuestion(final int questionID){
+            setContentView(R.layout.quiz);
+
+            //Mostra a pergunta
             final TextView quizQuestion = (TextView)findViewById(R.id.quiz_question);
+            quizQuestion.setText(perguntas.get(questionID).getPergunta());
+
+            //Mostra as respostas
+            final ListView respostasQuiz = (ListView)findViewById(R.id.quiz_answers);
+            // TODO: Use my own TextView for this list to control appearance, make it look like the rest of the app
+            final ArrayAdapter<String> adapter = new ArrayAdapter<String>(QuizActivity.this, R.layout.quiz_answer_row, perguntas.get(questionID).getRespostas().toArray(new String[0]));
+            respostasQuiz.setAdapter(adapter);
+
+            //Implementando OnClickListener para a ListView
+            respostasQuiz.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(final AdapterView<?> parent, View view, final int posicao, final long id) {
+                    final String respostaSelecionada = ((TextView) view).getText().toString();
+                    if(respostaSelecionada.equals(perguntas.get(questionID).getAnswer())){
+                        respostasCorretas++;
+                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.answer_correct), Toast.LENGTH_SHORT);
+                    }
+                    else{
+                        final Intent i = new Intent(QuizActivity.this, ScoreActivity.class);
+                        i.putExtra("respostasCorretas", respostasCorretas);
+                        startActivity(i);
+
+                        QuizActivity.this.finish();
+                    }
+                    perguntaAtual++;
+                    displayQuestion(perguntaAtual);
+                }
+            });
         }
     }
 
