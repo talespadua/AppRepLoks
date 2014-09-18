@@ -10,8 +10,8 @@
     <string name="answer_correct">Resposta correta!</string>
 
     <string name="quiz_end_header">Perdeu!!</string>
-    <string name="correct_answers_header">Certo</string>
-    <string name="incorrect_answers_header">Errado</string>
+    <string name="correct_answers_header">Pontuação</string>
+    <string name="quiz_recorde_header">Recorde</string>
     <string name="quiz_end_accept_button">Voltar ao menu</string>
 
 

@@ -38,7 +38,8 @@
 			android:layout_above="@+id/quiz_end_correct_relative_layout"
 			android:id="@+id/txt_end_of_quiz"
 			android:text="@string/quiz_end_header"
-			android:textSize="50dip"></TextView>
+			android:textSize="50dip"
+            android:textColor="#ffa4514b"></TextView>
 	</RelativeLayout>
 	<RelativeLayout
 		android:layout_height="wrap_content"
@@ -71,16 +72,16 @@
 			android:id="@+id/quiz_end_incorrect_relative_layout"
 			android:minWidth="100dip">
 			<TextView
-				android:id="@+id/quiz_end_incorrect_header"
+				android:id="@+id/quiz_end_record_header"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:text="@string/incorrect_answers_header"
+				android:text="@string/quiz_recorde_header"
 				android:layout_centerHorizontal="true"></TextView>
 			<TextView
-				android:layout_below="@+id/quiz_end_incorrect_header"
+				android:layout_below="@+id/quiz_end_record_header"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
-				android:id="@+id/quiz_end_incorrect_number"
+				android:id="@+id/quiz_end_recorde_number"
 				android:layout_centerHorizontal="true"
 				android:textSize="30dip"></TextView>
 		</RelativeLayout>

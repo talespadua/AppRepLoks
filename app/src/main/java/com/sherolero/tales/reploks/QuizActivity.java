@@ -33,6 +33,7 @@ public class QuizActivity extends Activity {
     private long seed;
     private int perguntaAtual;
     private int respostasCorretas;
+    private int recorde;
 
 
     @Override
@@ -53,6 +54,12 @@ public class QuizActivity extends Activity {
             }else{
                 perguntaAtual = 0;
             }
+            if(savedInstanceState.containsKey("recorde")){
+                recorde = savedInstanceState.getInt("recorde");
+            }else{
+                recorde = 0;
+            }
+
 
             if(savedInstanceState.containsKey("respostasCorretas")){
                 respostasCorretas = savedInstanceState.getInt("respostasCorretas");
@@ -75,6 +82,7 @@ public class QuizActivity extends Activity {
         outState.putLong("seed", seed);
         outState.putInt("perguntaAtual", perguntaAtual);
         outState.putInt("respostasCorretas", respostasCorretas);
+        outState.putInt("recorde", recorde);
         super.onSaveInstanceState(outState);
     }
 
@@ -166,8 +174,12 @@ public class QuizActivity extends Activity {
                         Toast.makeText(getApplicationContext(), getResources().getString(R.string.answer_correct), Toast.LENGTH_SHORT);
                     }
                     else{
+                        if(respostasCorretas > recorde){
+                            recorde = respostasCorretas;
+                        }
                         final Intent i = new Intent(QuizActivity.this, ScoreActivity.class);
                         i.putExtra("respostasCorretas", respostasCorretas);
+                        i.putExtra("recorde", recorde);
                         startActivity(i);
 
                         QuizActivity.this.finish();
