@@ -66,7 +66,7 @@
       <file leaf-file-name="QuizActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.321428" vertical-offset="2041" max-vertical-offset="3519">
+            <state vertical-scroll-proportion="-8.464286" vertical-offset="2653" max-vertical-offset="3519">
               <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScoreActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ScoreActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7274549" vertical-offset="198" max-vertical-offset="731">
-              <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="perguntas-rep-loks" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/perguntas/perguntas-rep-loks">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48971194" vertical-offset="0" max-vertical-offset="612">
+              <caret line="14" column="87" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -96,24 +106,9 @@
       <file leaf-file-name="quiz_end_summary.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-port/quiz_end_summary.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="1853">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.037037" vertical-offset="306" max-vertical-offset="1853">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/home.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="1139">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#1909#1929#0" expanded="true" />
-              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -124,9 +119,14 @@
       <file leaf-file-name="quiz_end_summary.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/quiz_end_summary.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6296296" vertical-offset="0" max-vertical-offset="1751">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-12.592592" vertical-offset="102" max-vertical-offset="1836">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="e#1400#1425#0" expanded="true" />
+                <element signature="e#2009#2041#0" expanded="true" />
+                <element signature="e#2807#2841#0" expanded="true" />
+                <element signature="e#3657#3689#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -827,8 +827,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout-port/quiz.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/quiz_answer_row.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/quiz_end_summary.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-port/quiz_end_summary.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/quiz_end_summary.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java" />
       </list>
     </option>
@@ -1537,14 +1537,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/perguntas/perguntas-rep-loks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52469134" vertical-offset="0" max-vertical-offset="612">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3747495" vertical-offset="0" max-vertical-offset="527">
@@ -1561,24 +1553,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#605#613#0" expanded="true" />
             <element signature="e#1392#1400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.321428" vertical-offset="2041" max-vertical-offset="3519">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2569#2577#0" expanded="true" />
-            <element signature="e#3423#3484#0" expanded="true" />
-            <element signature="e#3888#3896#0" expanded="true" />
-            <element signature="e#4728#4820#0" expanded="true" />
-            <element signature="e#5821#5829#0" expanded="true" />
-            <element signature="e#6098#7101#0" expanded="true" />
-            <element signature="e#6575#6624#0" expanded="true" />
-            <element signature="e#7086#7087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1613,41 +1587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#1909#1929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/quiz_end_summary.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6296296" vertical-offset="0" max-vertical-offset="1751">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-port/quiz_end_summary.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="833">
@@ -1658,10 +1597,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.464286" vertical-offset="2653" max-vertical-offset="3519">
+          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2569#2577#0" expanded="true" />
+            <element signature="e#3423#3484#0" expanded="true" />
+            <element signature="e#3888#3896#0" expanded="true" />
+            <element signature="e#4728#4820#0" expanded="true" />
+            <element signature="e#5821#5829#0" expanded="true" />
+            <element signature="e#6098#7101#0" expanded="true" />
+            <element signature="e#6575#6624#0" expanded="true" />
+            <element signature="e#7086#7087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7777778" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#1909#1929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-port/quiz_end_summary.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.037037" vertical-offset="306" max-vertical-offset="1853">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/quiz_end_summary.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.592592" vertical-offset="102" max-vertical-offset="1836">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#1400#1425#0" expanded="true" />
+            <element signature="e#2009#2041#0" expanded="true" />
+            <element signature="e#2807#2841#0" expanded="true" />
+            <element signature="e#3657#3689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7274549" vertical-offset="198" max-vertical-offset="731">
-          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/perguntas/perguntas-rep-loks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48971194" vertical-offset="0" max-vertical-offset="612">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="87" />
           <folding />
         </state>
       </provider>

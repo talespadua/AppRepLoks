@@ -10,6 +10,11 @@ import android.view.View;
 
 public class ScoreActivity extends Activity {
 
+    public static final String TAG = "ScoreActivity";
+
+    private int respostasCorretas;
+    private int recorde;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
