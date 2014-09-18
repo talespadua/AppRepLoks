@@ -19,7 +19,7 @@ public class Questions {
         final ArrayList<String> respostas = new ArrayList<String>();
 
         if(input != null){
-            questionComponents = input.split(",");
+            questionComponents = input.split(";");
         }else{
             throw new IllegalArgumentException("Pergunta enviada possui valor null");
         }

@@ -5,11 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_quiz">QuizActivity</string>
-    <string name="start_quiz">Comecar a budega</string>
+    <string name="start_quiz">Quiz</string>
     <string name="question_reading_exception">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</string>
     <string name="answer_correct">Resposta correta!</string>
 
-    <string name="quiz_end_header">Fim do Quiz</string>
+    <string name="quiz_end_header">Perdeu!!</string>
     <string name="correct_answers_header">Certo</string>
     <string name="incorrect_answers_header">Errado</string>
     <string name="quiz_end_accept_button">Voltar ao menu</string>

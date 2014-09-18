@@ -23,7 +23,8 @@
 	android:layout_height="fill_parent"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_gravity="center"
-	android:id="@+id/quiz_end_root_layout">
+	android:id="@+id/quiz_end_root_layout"
+    android:background="#f5e77e">
 	<RelativeLayout
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
@@ -96,6 +97,7 @@
 			android:id="@+id/quiz_end_accept_button"
 			android:layout_centerHorizontal="true"
 			android:text="@string/quiz_end_accept_button"
-			android:layout_width="fill_parent"></Button>
+			android:layout_width="fill_parent"
+            android:onClick="goToMenu"></Button>
 	</RelativeLayout>
 </RelativeLayout>

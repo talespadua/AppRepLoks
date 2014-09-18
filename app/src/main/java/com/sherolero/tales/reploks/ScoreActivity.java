@@ -1,9 +1,11 @@
 package com.sherolero.tales.reploks;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class ScoreActivity extends Activity {
@@ -13,7 +15,6 @@ public class ScoreActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz_end_summary);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -32,5 +33,10 @@ public class ScoreActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void goToMenu(View v){
+        Intent i = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(i);
     }
 }
