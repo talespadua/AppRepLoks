@@ -35,6 +35,7 @@ public class QuizActivity extends Activity {
     private int perguntaAtual;
     private int respostasCorretas;
     private int recorde;
+    private boolean mitinho;
     public SharedPreferences settings;
     public static final String loksPrefs = "LoksPrefs";
 
@@ -51,6 +52,12 @@ public class QuizActivity extends Activity {
                 seed = savedInstanceState.getLong("seed");
             }else{
                 seed = new Random().nextLong();
+            }
+
+            if(savedInstanceState.containsKey("mitinho")){
+                mitinho = savedInstanceState.getBoolean("mitinho");
+            }else{
+                mitinho = false;
             }
 
             if(savedInstanceState.containsKey("perguntaAtual")){
@@ -110,7 +117,7 @@ public class QuizActivity extends Activity {
 
     private class LoadQuestionsTask extends AsyncTask<String, Integer, Void> {
 
-        //TODO: Mover trecho de código do LoadQuestions para cá. LoadQuestions deve tratar arquivos individuais
+        //TODO: Corrigir gambiarra abaixo carregando o aquivo especificado e nao todos do diretorio
         @Override
         protected Void doInBackground(String... params){
             final ArrayList<String> questionsTemp = new ArrayList<String>();
@@ -169,31 +176,38 @@ public class QuizActivity extends Activity {
                     final String respostaSelecionada = ((TextView) view).getText().toString();
                     if(respostaSelecionada.equals(perguntas.get(questionID).getAnswer())){
                         respostasCorretas++;
-                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.answer_correct), Toast.LENGTH_SHORT);
-                    }
-                    else{
+                        perguntaAtual++;
+                        Toast.makeText(getApplicationContext(), getResources().getString(R.string.answer_correct), Toast.LENGTH_SHORT).show();
                         if(respostasCorretas > recorde){
                             recorde = respostasCorretas;
                         }
-                        SharedPreferences.Editor editor = settings.edit();
-                        editor.putInt("recorde", recorde);
-                        editor.commit();
-                        final Intent i = new Intent(QuizActivity.this, ScoreActivity.class);
-                        i.putExtra("respostasCorretas", respostasCorretas);
-                        i.putExtra("recorde", recorde);
-                        startActivity(i);
-
-                        QuizActivity.this.finish();
+                        if(perguntaAtual >= perguntas.size()) {
+                            mitinho = true;
+                            goToScoreActivity();
+                        }else{
+                            displayQuestion(perguntaAtual);
+                        }
                     }
-                    perguntaAtual++;
-                    displayQuestion(perguntaAtual);
+                    else{
+                        goToScoreActivity();
+                    }
                 }
             });
         }
     }
 
-
-    @Override
+    private void goToScoreActivity(){
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putInt("recorde", recorde);
+        editor.apply();
+        final Intent i = new Intent(QuizActivity.this, ScoreActivity.class);
+        i.putExtra("respostasCorretas", respostasCorretas);
+        i.putExtra("recorde", recorde);
+        i.putExtra("mitinho", mitinho);
+        startActivity(i);
+        QuizActivity.this.finish();
+    }
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.quiz, menu);
@@ -210,5 +224,5 @@ public class QuizActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 }

@@ -31,74 +31,91 @@
 		android:layout_centerHorizontal="true"
 		android:id="@+id/quiz_end_top_relative_layout"
 		android:layout_above="@+id/quiz_end_totals_relative_layout"
-		android:layout_marginBottom="80dip">
-		<TextView
-			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
-			android:layout_above="@+id/quiz_end_correct_relative_layout"
-			android:id="@+id/txt_end_of_quiz"
-			android:text="@string/quiz_end_header"
-			android:textSize="50dip"
-            android:textColor="#ffa4514b"></TextView>
-	</RelativeLayout>
+		android:layout_marginBottom="80dip"></RelativeLayout>
 	<RelativeLayout
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
 		android:layout_centerInParent="true"
-		android:id="@+id/quiz_end_totals_relative_layout">
-		<RelativeLayout
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:id="@+id/quiz_end_correct_relative_layout"
-			android:minWidth="100dip">
-			<TextView
-				android:id="@+id/quiz_end_correct_header"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/correct_answers_header"
-				android:layout_centerHorizontal="true"></TextView>
-			<TextView
-				android:layout_below="@+id/quiz_end_correct_header"
-				android:layout_height="wrap_content"
-				android:layout_width="wrap_content"
-				android:id="@+id/quiz_end_correct_number"
-				android:layout_centerHorizontal="true"
-				android:textSize="30dip"></TextView>
-		</RelativeLayout>
-		<RelativeLayout
-			android:layout_toRightOf="@+id/quiz_end_correct_relative_layout"
-			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
-			android:id="@+id/quiz_end_incorrect_relative_layout"
-			android:minWidth="100dip">
-			<TextView
-				android:id="@+id/quiz_end_record_header"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/quiz_recorde_header"
-				android:layout_centerHorizontal="true"></TextView>
-			<TextView
-				android:layout_below="@+id/quiz_end_record_header"
-				android:layout_height="wrap_content"
-				android:layout_width="wrap_content"
-				android:id="@+id/quiz_end_recorde_number"
-				android:layout_centerHorizontal="true"
-				android:textSize="30dip"></TextView>
-		</RelativeLayout>
-	</RelativeLayout>
+		android:id="@+id/quiz_end_totals_relative_layout"></RelativeLayout>
 	<RelativeLayout
 		android:layout_below="@+id/quiz_end_totals_relative_layout"
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
 		android:layout_centerHorizontal="true"
 		android:id="@+id/quiz_end_bottom_relative_layout"
-		android:layout_marginTop="50dip">
-		<Button
-			android:layout_height="wrap_content"
-			android:id="@+id/quiz_end_accept_button"
-			android:layout_centerHorizontal="true"
-			android:text="@string/quiz_end_accept_button"
-			android:layout_width="fill_parent"
-            android:onClick="goToMenu"></Button>
-	</RelativeLayout>
+		android:layout_marginTop="50dip"></RelativeLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txt_end_of_quiz"
+        android:text="@string/quiz_end_header"
+        android:textSize="30sp"
+        android:textColor="#ffa4514b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/quiz_end_totals_relative_layout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:gravity="center"></TextView>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/quiz_end_accept_button"
+        android:text="@string/quiz_end_accept_button"
+        android:layout_width="fill_parent"
+android:onClick="goToMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp"></Button>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/quiz_end_incorrect_relative_layout"
+        android:minWidth="100dip"
+        android:layout_toEndOf="@+id/quiz_end_bottom_relative_layout"
+        android:layout_toRightOf="@+id/quiz_end_bottom_relative_layout"
+        android:layout_below="@+id/quiz_end_bottom_relative_layout"
+        android:layout_alignLeft="@+id/quiz_end_bottom_relative_layout"
+        android:layout_alignStart="@+id/quiz_end_bottom_relative_layout">
+        <TextView
+            android:id="@+id/quiz_end_record_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_recorde_header"
+            android:layout_centerHorizontal="true"></TextView>
+        <TextView
+            android:layout_below="@+id/quiz_end_record_header"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/quiz_end_recorde_number"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dip"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quiz_end_correct_relative_layout"
+        android:minWidth="100dip"
+        android:layout_toStartOf="@+id/quiz_end_bottom_relative_layout"
+        android:layout_alignTop="@+id/quiz_end_bottom_relative_layout"
+        android:layout_toLeftOf="@+id/quiz_end_bottom_relative_layout">
+        <TextView
+            android:id="@+id/quiz_end_correct_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correct_answers_header"
+            android:layout_centerHorizontal="true"></TextView>
+        <TextView
+            android:layout_below="@+id/quiz_end_correct_header"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/quiz_end_correct_number"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dip"></TextView>
+    </RelativeLayout>
 </RelativeLayout>

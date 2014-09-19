@@ -18,6 +18,7 @@ public class ScoreActivity extends Activity {
 
     private int respostasCorretas;
     private int recorde;
+    private boolean mitinho;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,14 +27,25 @@ public class ScoreActivity extends Activity {
         if(savedInstanceState != null && savedInstanceState.containsKey("respostasCorretas") && savedInstanceState.containsKey("recorde")){
             respostasCorretas = savedInstanceState.getInt("respostasCorretas");
             //recorde = savedInstanceState.getInt("recorde");
-        }else if(getIntent().getExtras() != null && getIntent().getExtras().containsKey("respostasCorretas") && getIntent().getExtras().containsKey("recorde")){
+        }else if(getIntent().getExtras() != null && getIntent().getExtras().containsKey("respostasCorretas")
+                                                 && getIntent().getExtras().containsKey("recorde")
+                                                 && getIntent().getExtras().containsKey("mitinho")){
             respostasCorretas = getIntent().getExtras().getInt("respostasCorretas");
             recorde = getIntent().getExtras().getInt("recorde");
+            mitinho = getIntent().getExtras().getBoolean("mitinho");
         }else{
             Log.w(TAG, "Erro ao passar dados para essa Activity");
         }
 
         setContentView(R.layout.quiz_end_summary);
+
+        final TextView gameStatus = (TextView) findViewById(R.id.txt_end_of_quiz);
+        if(mitinho){
+            gameStatus.setText("Parabéns, todas as perguntas foram respondidas. Você é um mitinho da Rep Loks");
+        }
+        else{
+            gameStatus.setText("Perdeu! Tente novamente!");
+        }
 
         final TextView respostasCorretasText = (TextView) findViewById(R.id.quiz_end_correct_number);
         respostasCorretasText.setText(String.valueOf(respostasCorretas));
