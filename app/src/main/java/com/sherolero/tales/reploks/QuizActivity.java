@@ -2,6 +2,7 @@ package com.sherolero.tales.reploks;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -34,13 +35,16 @@ public class QuizActivity extends Activity {
     private int perguntaAtual;
     private int respostasCorretas;
     private int recorde;
-
+    public SharedPreferences settings;
+    public static final String loksPrefs = "LoksPrefs";
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         perguntas = new ArrayList<Questions>();
+        settings = getSharedPreferences(loksPrefs, 0);
+        recorde = settings.getInt("recorde", 0);
 
         if(savedInstanceState != null){
             if(savedInstanceState.containsKey("seed")){
@@ -54,12 +58,6 @@ public class QuizActivity extends Activity {
             }else{
                 perguntaAtual = 0;
             }
-            if(savedInstanceState.containsKey("recorde")){
-                recorde = savedInstanceState.getInt("recorde");
-            }else{
-                recorde = 0;
-            }
-
 
             if(savedInstanceState.containsKey("respostasCorretas")){
                 respostasCorretas = savedInstanceState.getInt("respostasCorretas");
@@ -177,6 +175,9 @@ public class QuizActivity extends Activity {
                         if(respostasCorretas > recorde){
                             recorde = respostasCorretas;
                         }
+                        SharedPreferences.Editor editor = settings.edit();
+                        editor.putInt("recorde", recorde);
+                        editor.commit();
                         final Intent i = new Intent(QuizActivity.this, ScoreActivity.class);
                         i.putExtra("respostasCorretas", respostasCorretas);
                         i.putExtra("recorde", recorde);

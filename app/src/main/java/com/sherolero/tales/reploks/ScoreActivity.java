@@ -25,7 +25,7 @@ public class ScoreActivity extends Activity {
 
         if(savedInstanceState != null && savedInstanceState.containsKey("respostasCorretas") && savedInstanceState.containsKey("recorde")){
             respostasCorretas = savedInstanceState.getInt("respostasCorretas");
-            recorde = savedInstanceState.getInt("recorde");
+            //recorde = savedInstanceState.getInt("recorde");
         }else if(getIntent().getExtras() != null && getIntent().getExtras().containsKey("respostasCorretas") && getIntent().getExtras().containsKey("recorde")){
             respostasCorretas = getIntent().getExtras().getInt("respostasCorretas");
             recorde = getIntent().getExtras().getInt("recorde");

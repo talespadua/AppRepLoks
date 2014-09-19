@@ -54,31 +54,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="QuizActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="3723">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.6152263" vertical-offset="466" max-vertical-offset="3740">
+              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2825#2833#0" expanded="true" />
-                <element signature="e#3679#3740#0" expanded="true" />
-                <element signature="e#4144#4152#0" expanded="true" />
-                <element signature="e#4984#5076#0" expanded="true" />
-                <element signature="e#6077#6085#0" expanded="true" />
-                <element signature="e#6354#7553#0" expanded="true" />
-                <element signature="e#6831#6880#0" expanded="true" />
-                <element signature="e#7538#7539#0" expanded="true" />
+                <element signature="e#2879#2887#0" expanded="true" />
+                <element signature="e#3733#3794#0" expanded="true" />
+                <element signature="e#4198#4206#0" expanded="true" />
+                <element signature="e#5038#5130#0" expanded="true" />
+                <element signature="e#6131#6139#0" expanded="true" />
+                <element signature="e#6408#7782#0" expanded="true" />
+                <element signature="e#6885#6934#0" expanded="true" />
+                <element signature="e#7767#7768#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScoreActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ScoreActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75308645" vertical-offset="463" max-vertical-offset="1224">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -811,11 +811,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout-port/quiz.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/quiz_answer_row.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-port/quiz_end_summary.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/quiz_end_summary.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java" />
       </list>
     </option>
   </component>
@@ -1360,21 +1360,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.516184" sideWeight="0.57261723" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.516184" sideWeight="0.42738277" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31345826" sideWeight="0.57261723" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10221465" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.516184" sideWeight="0.42738277" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10221465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10221465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1428,14 +1428,14 @@
           <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2825#2833#0" expanded="true" />
-            <element signature="e#3679#3740#0" expanded="true" />
-            <element signature="e#4144#4152#0" expanded="true" />
-            <element signature="e#4984#5076#0" expanded="true" />
-            <element signature="e#6077#6085#0" expanded="true" />
-            <element signature="e#6354#7553#0" expanded="true" />
-            <element signature="e#6831#6880#0" expanded="true" />
-            <element signature="e#7538#7539#0" expanded="true" />
+            <element signature="e#2879#2887#0" expanded="true" />
+            <element signature="e#3733#3794#0" expanded="true" />
+            <element signature="e#4198#4206#0" expanded="true" />
+            <element signature="e#5038#5130#0" expanded="true" />
+            <element signature="e#6131#6139#0" expanded="true" />
+            <element signature="e#6408#7782#0" expanded="true" />
+            <element signature="e#6885#6934#0" expanded="true" />
+            <element signature="e#7767#7768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1681,29 +1681,29 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="3723">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2825#2833#0" expanded="true" />
-            <element signature="e#3679#3740#0" expanded="true" />
-            <element signature="e#4144#4152#0" expanded="true" />
-            <element signature="e#4984#5076#0" expanded="true" />
-            <element signature="e#6077#6085#0" expanded="true" />
-            <element signature="e#6354#7553#0" expanded="true" />
-            <element signature="e#6831#6880#0" expanded="true" />
-            <element signature="e#7538#7539#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/ScoreActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sherolero/tales/reploks/QuizActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75308645" vertical-offset="463" max-vertical-offset="1224">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding />
+        <state vertical-scroll-proportion="0.6152263" vertical-offset="466" max-vertical-offset="3740">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2879#2887#0" expanded="true" />
+            <element signature="e#3733#3794#0" expanded="true" />
+            <element signature="e#4198#4206#0" expanded="true" />
+            <element signature="e#5038#5130#0" expanded="true" />
+            <element signature="e#6131#6139#0" expanded="true" />
+            <element signature="e#6408#7782#0" expanded="true" />
+            <element signature="e#6885#6934#0" expanded="true" />
+            <element signature="e#7767#7768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
