@@ -80,8 +80,6 @@ public class ScoreActivity extends Activity {
     }*/
 
     public void goToMenu(View v){
-        Intent i = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(i);
         ScoreActivity.this.finish();
     }
 }
