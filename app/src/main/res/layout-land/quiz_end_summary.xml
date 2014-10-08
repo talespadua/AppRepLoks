@@ -89,7 +89,8 @@
 			android:id="@+id/quiz_end_accept_button"
 			android:layout_centerHorizontal="true"
 			android:text="@string/quiz_end_accept_button"
-			android:layout_width="fill_parent"></Button>
+			android:layout_width="fill_parent"
+            android:onClick="goToMenu"></Button>
 	</RelativeLayout>
 
     <TextView
