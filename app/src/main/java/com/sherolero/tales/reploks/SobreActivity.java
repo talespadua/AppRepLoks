@@ -1,26 +1,24 @@
 package com.sherolero.tales.reploks;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class MainActivity extends Activity {
+public class SobreActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home);
+        setContentView(R.layout.activity_sobre);
     }
 
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.sobre, menu);
         return true;
     }
 
@@ -31,14 +29,8 @@ public class MainActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            Intent i = new Intent(getApplicationContext(), SobreActivity.class);
-            startActivity(i);
+            return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void goToQuiz(View v){
-        Intent i = new Intent(getApplicationContext(), QuizActivity.class);
-        startActivity(i);
-    }
+    }*/
 }
