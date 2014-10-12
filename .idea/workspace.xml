@@ -52,7 +52,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af24e561-889f-47f8-91fc-de9d3ebb14b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RepLoks.iws" />
@@ -1378,7 +1377,11 @@
       <created>1413078038816</created>
       <updated>1413078038816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionado seção sobre">
+      <created>1413078324107</created>
+      <updated>1413078324107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
